@@ -1,0 +1,235 @@
+html {
+  padding:0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #ECE5E0;
+  background-image: url("../img/clouds.jpg");
+  background-size: cover;
+  position: fixed;
+}
+
+#back{
+  display:none;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  margin-left: 60px;
+  color: black;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+#back:hover{
+  color: white;
+}
+.name{
+  font-size: 50px;
+  font-family: "Satisfy", cursive;
+  position: relative;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 10px;
+}
+.name:hover{
+  cursor: pointer;
+}
+#options{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+  color:white;
+  text-align: center;
+
+}
+.work{
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  margin: 15px;
+  background-image: url('../img/one.jpg');
+  background-size: cover;
+  filter: brightness(50%);
+  padding-top: 60px;
+  transition: 0.3s;
+}
+.work:hover{
+  filter: brightness(80%);
+    cursor: pointer;
+}
+.art{
+  display: inline-block;
+  background-color: gray;
+  height: 500px;
+  width: 300px;
+  margin: 15px;
+  background-image: url('../img/two.jpg');
+  background-size: cover;
+  filter: brightness(50%);
+  padding-top: 60px;
+  transition: 0.3s;
+
+}
+.art:hover{
+  filter: brightness(80%);
+  cursor: pointer;
+}
+.travel{
+  display: inline-block;
+  background-color: gray;
+  height: 500px;
+  width: 300px;
+  margin: 15px;
+  background-image: url('../img/three.jpg');
+  background-size: cover;
+  filter: brightness(50%);
+  padding-top: 60px;
+  transition: 0.3s;
+}
+.travel:hover{
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+#bio{
+  margin: 0px;
+  background-color: #F5F2EF;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  height: 400px;
+
+}
+a:link{
+  color:inherit;
+}
+a:visited{
+  color:inherit;
+}
+#workpage{
+display:none;
+margin: 0px;
+padding: 0px;
+}
+#sections{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+  color:white;
+  text-align: center;
+
+}
+.education{
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  margin: 15px;
+  background-color: black;
+  opacity: 0.5;
+  padding-top: 50px;
+  transition: 0.3s;
+}
+
+.experience{
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  margin: 15px;
+  background-color: black;
+  opacity: 0.5;
+  padding-top: 50px;
+  transition: 0.3s;
+
+}
+
+.honors{
+  display: inline-block;
+  height: 500px;
+  width: 300px;
+  margin: 15px;
+  background-color: black;
+  opacity: 0.5;
+  padding-top: 50px;
+  transition: 0.3s;
+}
+
+#subheader{
+  text-align: left;
+  margin-top:15px;
+  margin-left: 15px;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif', serif;
+}
+#text{
+  text-align: left;
+  margin: 5px;
+  margin-left: 15px;
+  font-size: 13px;
+  font-family: 'IBM Plex Serif', serif;
+  margin-bottom: 15px;
+  color: lightgray;
+}
+
+#artpage{
+  display:none;
+}
+
+#container{
+
+  position:relative;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+
+
+}
+#boxes{
+  display: inline-block;
+  background-color: black;
+  opacity: 0.5;
+  height: 700px;
+  width: 850px;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+  color:white;
+  text-align: center;
+
+}
+#pic {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: inline-block;
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  margin-top: 20px;
+  transition: 0.2s;
+  text-align: center;
+}
+#pic:hover{
+  opacity: 0.7;
+}
+#pic-text{
+  position: fixed;
+  display: flex;
+
+}
+#pic-info{
+  position: fixed;
+  display:none;
+}
